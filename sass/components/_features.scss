@@ -1,4 +1,4 @@
-.section-examples {
+.section__examples {
   padding-top: 0;
 }
 
@@ -7,11 +7,11 @@
   justify-content: space-between;
 }
 
-.features-menu-item {
+.features-menu__item {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.features-icon-container {
+.features-menu__icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,20 +30,20 @@
   letter-spacing: 0.03em;
 }
 
-.examples {
+.examples-menu {
   display: flex;
   gap: 30px;
 }
 
-.examples-item {
+.examples-menu__item {
   flex-basis: calc(100% - 60px) / 3;
 }
 
-.examples-thumb {
+.examples-menu__thumb {
   position: relative;
 }
 
-.examples-text {
+.examples-menu__text {
   position: absolute;
   bottom: 0;
   left: 0;

@@ -12,11 +12,11 @@
   margin-bottom: 20px;
 }
 
-.address-item {
+.address-menu__item {
   margin-bottom: 9px;
 }
 
-.address {
+.address-menu {
   text-decoration: none;
   color: rgba(255, 255, 255);
   font-style: normal;
@@ -24,7 +24,7 @@
   font-size: 14px;
 }
 
-.address-contact {
+.address-menu__link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
