@@ -636,7 +636,7 @@ img {
   fill: rgb(175, 177, 184);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-link:hover .cliets-menu__icon, .clients-link:focus .cliets-menu__icon {
+.clients-menu__link:hover .cliets-menu__icon, .clients-menu__link:focus .cliets-menu__icon {
   fill: var(--accent-color);
 }
 
