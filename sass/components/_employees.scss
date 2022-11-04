@@ -1,13 +1,9 @@
-.section_employees {
-  background-color: #f5f4fa;
-}
-
 .employees-menu {
   display: flex;
   gap: 30px;
 }
 
-.employees-menu__card {
+.employees-menu__item {
   flex-basis: calc((100% - 90px) / 4);
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -57,7 +53,7 @@
   }
 }
 
-.employees-menu__name {
+.employees-menu__title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -67,7 +63,7 @@
   margin-bottom: 10px;
 }
 
-.employees-menu__position {
+.employees-menu__text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
